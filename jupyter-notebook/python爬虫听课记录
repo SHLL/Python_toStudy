@@ -1,0 +1,55 @@
+要点
+1: requests 库的使用
+2: http协议的请求类型： GET,POST,PUT,DELETE,HEAD,OPTIONS
+3: requests库的内容解码：
+    r.url查看构造的url
+    r.status_code 可以查看请求是否成功 request.codes.ok成功的代码
+        HTTP状态码：
+           成功（2字头）：代表请求已成功被服务器接收，理解，并接受[1]。比如200代表ok
+           重定向（3字头）：301重定向 r.history
+           请求错误（4字头）：代表了客户端看起来可能发生了错误，妨碍了服务器的处理。
+           服务器错误（5，6字头）：服务器在处理请求的过程中有错误或者异常状态发生
+    r.text查看其内容，r.text会自动解码
+    r.encoding使用的变法方式
+    非文本请求，使用r.content查看响应数据
+    可以使用r.json()处理响应json数据
+4: 请求头 request header 网站服务器会通过请求头来判断是浏览器还是机器人
+    通过User-Agent:中的内容来判断使用的浏览器类型
+5：服务器反爬机制
+    cookies 判断访问用户是否在线
+    timeout 访问时间是否超时
+    session()会话
+    proxies代理
+    
+    
+Xpath 
+1：lxml是哟个网页解析库。XPath是一门在XML文档中查找信息的语言。XPath可用来在XML文档中对元素和属性进行遍历。
+    安装： pip install lxml
+        如果有问题，可到网页 www.lfd.uci.edu/~gohlke/pythonlibs/ 去查找有关 lxml的文档 寻找相对的         文件进行下载whl格式文件 然后:
+            pip install wheel 安装wheel
+            pip install whl文件名即可
+                示例:pip install (下载的whl格式的lxml文件名) python库的本地安装
+                
+2：xpath  查询语法： 
+           使用元素进行定位查找： 
+           // + 唯一节点元素
+           / + 具有多个结点的元素
+               PS:如果查找的元素节点序列中有存在唯一性的子元素则可以
+               直接// + 唯一节点子元素来进行定位
+           
+           使用属性进行定位查找：
+           元素名[@属性名="属性值"] /属性中包含的内容明细（用//或/来描述位置进行定位）
+          
+           
+       常用方法：
+           text()
+           
+       常用符号：
+           @ :指向目的属性的值
+           * :表示所有
+     
+     
+   示例：
+       a3_wenben = selector.xpath('//div/ul/li[@class = "item-inactive"]/a/text()')[0]
+       al = selector.xpath('//a[@href = "link1.html"]/text()')[0]                            #//[0]表示python中的切片
+    
