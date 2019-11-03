@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd3af2fb-fdd4-4962-8e87-ad0d44590ef5" name="Default Changelist" comment="" />
+    <list default="true" id="cd3af2fb-fdd4-4962-8e87-ad0d44590ef5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/Data_structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1PY54mjhihPfj7ZfTSgE3j3VJ7G" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -42,5 +54,16 @@
       <updated>1566038000010</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a3a60c0-9869-4d4b-9a42-b9e67e34096a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../jupyter-notebook/.ipynb_checkpoints/XPath语法简单示例-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../jupyter-notebook/.ipynb_checkpoints/XPath语法简单示例-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jupyter-notebook/XPath语法简单示例.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../jupyter-notebook/XPath语法简单示例.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jupyter-notebook/python爬虫听课记录" beforeDir="false" afterPath="$PROJECT_DIR$/../jupyter-notebook/python爬虫听课记录" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/Data_structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data_structure/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
