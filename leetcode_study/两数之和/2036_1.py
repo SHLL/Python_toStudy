@@ -1,4 +1,4 @@
-class Solution:
+class soultion():
     def twoSum(self,nums,target):
         # 将输入的nums数组通过sorted方法来转换为一个新的列表，该列用来存储nums数组的地址值
         # python中四种数据结构：列表，字典，集合，元组
@@ -22,3 +22,12 @@ class Solution:
 
         return [id[head],id[tail]]
         # 将满足的地址值对应的数值返回
+
+# 运行测试
+nums = [2, 7, 8, 10]
+target = 9
+a = soultion().twoSum(nums,target)
+print(a)
+
+
+
